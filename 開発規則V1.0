@@ -1,4 +1,4 @@
-１．SQL文にルール　
+１．SQL文関連の規則　
   →　SQL文を作成する時、全部小文字、又は大文字をするべき(データベースで大文字／小文字を区別するかによる)
   →　SQL文をinsert, update, deleteを作成する時、必ずテーブル名を横並びにする(select除外)
   　　※例：insert abcテーブル, update abcテーブル, delete from abcテーブル
