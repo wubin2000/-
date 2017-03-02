@@ -3,5 +3,5 @@
   →　SQL文をinsert, update, deleteを作成する時、必ずテーブル名を横並びにする(select除外)
   　　※例：insert abcテーブル, update abcテーブル, delete from abcテーブル
  
-２．DB関連のメソッド名のルール
+２．DB関連のメソッド名規則
   →　SQL文を呼び出す場合、変数名の先頭に必ず InsertXXX名(), UpdateXXX名(), DeleteXXX名, SeleteXXX名を含んで作成するべき
