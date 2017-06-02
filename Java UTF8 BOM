@@ -1,0 +1,8 @@
+※Use the UTF-8 BOM
+
+PrintStream out = new PrintStream(new FileOutputStream(csvFile),
+                                  true, "UTF-8");
+byte[] bom = {(byte)0xEF, (byte)0xBB, (byte)0xBF};
+out.write(bom);
+for (Sheet sheet : wb) {
+...
