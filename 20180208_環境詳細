@@ -1,0 +1,5 @@
+1.Apacheサーバの詳細：
+　<IfModule ssl_module>
+SSLRandomSeed startup builtin
+SSLRandomSeed connect builtin
+</IfModule>
