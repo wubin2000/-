@@ -3,3 +3,10 @@
 SSLRandomSeed startup builtin
 SSLRandomSeed connect builtin
 </IfModule>
+
+
+https://tutorialzine.com/2013/05/mini-ajax-file-upload-form
+
+https://github.com/blueimp/jQuery-File-Upload/wiki/Options#callback-options
+
+https://stackoverflow.com/questions/17451629/maxfilesize-and-acceptfiletypes-in-blueimp-file-upload-plugin-do-not-work-why
